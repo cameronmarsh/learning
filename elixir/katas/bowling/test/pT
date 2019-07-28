@@ -1,0 +1,7 @@
+defmodule BowlingGameTest do
+  use ExUnit.Case
+
+  test "can score single open frame" do
+    assert BowlingGame.score([3, 6]) == 9
+  end
+end
